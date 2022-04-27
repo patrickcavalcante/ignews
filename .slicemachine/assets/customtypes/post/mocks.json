@@ -1,0 +1,26 @@
+{
+  "id": "01eb7f1c-5f3f-4a58-b663-041e6efe14a1",
+  "uid": "eum-vero-id",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Synthesize dot-com platforms",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "heading1",
+        "text": "Evolve out-of-the-box action-items",
+        "spans": []
+      },
+      {
+        "type": "paragraph",
+        "text": "In reprehenderit et sit adipisicing magna adipisicing commodo labore cillum ipsum consectetur. Cupidatat dolore do veniam aute ipsum do aute adipisicing exercitation consectetur exercitation dolore. Id quis est elit veniam dolor velit.",
+        "spans": []
+      }
+    ]
+  }
+}
