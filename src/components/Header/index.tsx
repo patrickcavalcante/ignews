@@ -1,6 +1,7 @@
 import React from 'react'
 import { SignInButton } from '../SignInButton'
 import styles from './styles.module.scss'
+import { ActiveLink } from '../ActiveLink'
 
 export const Header: React.FC = () => {
   return (
@@ -8,10 +9,12 @@ export const Header: React.FC = () => {
       <div className={styles.headerContent}>
         <img src="/images/logo.svg" alt="Logo" />
         <nav>
-          <a href="" className={styles.active}>
-            Home
-          </a>
-          <a href="">Posts</a>
+          <ActiveLink activeClassName={styles.active} href="/" >
+            <a>Home</a>
+          </ActiveLink>
+          <ActiveLink  activeClassName={styles.active} href="/posts">
+            <a>Posts</a>
+          </ActiveLink>
         </nav>
         <SignInButton />
       </div>
